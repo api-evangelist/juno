@@ -1,17 +1,41 @@
 aid: juno
 name: Juno
-description: 'Juno is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Juno (juno.co), operated by Juno Technology, Inc., is a San Francisco-based owner's representation,
+  development-consulting and construction-management firm for prefabricated, modular and mass-timber
+  multifamily development, working with developers from site feasibility and entitlement through
+  delivery across North America. Juno owns the rights to the Juno Mass Timber System, a field-tested
+  kit-of-parts building system of roughly 33 components configurable into 25+ unit types, proven on
+  the 24-unit Juno East Austin project at 400 Comal St, Austin TX. The current company is the 2024
+  relaunch ("Juno 2.0") of the venture-funded Juno / Juno Residential founded in 2019 by Jonathan
+  Scherr, BJ Siegel and Chester Chipperfield, which raised roughly $32M from Comcast Ventures, Khosla
+  Ventures and RET Ventures before running out of money; the relaunched firm is led by co-founders
+  Emily Mills Marineau and Jen Canchola. Juno sells professional services and a physical building
+  system, not software: as of this enrichment pass it publishes a marketing site, a mass-timber
+  system page, a contact form, a newsletter signup, terms of service and a privacy policy, and no
+  public API, developer portal, OpenAPI specification, SDK, or machine-readable contract of any kind.
 url: https://raw.githubusercontent.com/api-evangelist/juno/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/63bb9ddf47dd2f148dc336e3/63bba701e91f6644c348de9c_j-icon-256.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enriched
 specificationVersion: '0.20'
 created: '2026-08-23'
 modified: '2026-08-23'
 tags:
 - Company
+- Construction
+- Construction Management
+- Real Estate
+- Multifamily
+- Prefabrication
+- Modular Construction
+- Mass Timber
+- Property Technology
+- Owner's Representation
+- Sustainability
+- Professional Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +43,42 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/juno-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/juno_stock/
+  url: https://juno.co/
+- type: About
+  url: https://juno.co/about-us
+- type: Support
+  url: https://juno.co/contact
+- type: TermsOfService
+  url: https://juno.co/service-terms
+- type: PrivacyPolicy
+  url: https://juno.co/privacy-policy
+- type: LLMsTxt
+  url: llms/juno-llms.txt
+
+x-enrichment:
+  date: '2026-08-23'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Juno Technology, Inc. sells owner's representation and construction-management services plus the
+    physical Juno Mass Timber System kit-of-parts; the entire juno.co sitemap is nine marketing pages
+    with no developer section, and every spec, /.well-known/ and legacy API-subdomain probe missed.
+  evidence:
+  - url: https://juno.co/sitemap.xml
+    status: 200
+  - url: https://juno.co/openapi.json
+    status: 404
+  - url: https://juno.co/.well-known/api-catalog
+    status: 404
+  - url: https://juno.co/llms.txt
+    status: 404
+  checked: '2026-08-23'
+

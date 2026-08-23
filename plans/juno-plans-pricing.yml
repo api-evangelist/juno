@@ -1,0 +1,14 @@
+generated: '2026-08-23'
+method: searched
+source: https://juno.co/ (full sitemap walked 2026-08-23; https://juno.co/sitemap.xml, 200)
+plan_count: 0
+pricing_model: not-published
+note: >-
+  Juno publishes no pricing, plans, rate card or fee schedule. The complete juno.co sitemap is nine
+  URLs (home, about-us, juno-mass-timber-system, contact, newsletter, privacy-policy, service-terms
+  plus two unlinked staging pages) and contains no pricing page. Juno sells owner's representation,
+  development consulting and construction management engagements, which are scoped and quoted
+  through the interest form at https://juno.co/contact (200) or developers@juno.co. No Plans or
+  Pricing pointer is emitted from this file: it records that nothing is published, not a published
+  plan set.
+plans: []

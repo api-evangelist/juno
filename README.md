@@ -64,5 +64,11 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Juno is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/juno_stock/
+Juno (juno.co), operated by Juno Technology, Inc., is a San Francisco-based owner's representation, development-consulting and construction-management firm for prefabricated, modular and mass-timber multifamily development, working with developers from site feasibility and entitlement through delivery across North America. Juno owns the rights to the Juno Mass Timber System, a field-tested kit-of-parts building system of roughly 33 components configurable into 25+ unit types, proven on the 24-unit Juno East Austin project at 400 Comal St, Austin TX. The current company is the 2024 relaunch ("Juno 2.0") of the venture-funded Juno / Juno Residential founded in 2019 by Jonathan Scherr, BJ Siegel and Chester Chipperfield, which raised roughly $32M from Comcast Ventures, Khosla Ventures and RET Ventures before running out of money; the relaunched firm is led by co-founders Emily Mills Marineau and Jen Canchola. Juno sells professional services and a physical building system, not software: as of this enrichment pass it publishes a marketing site, a mass-timber system page, a contact form, a newsletter signup, terms of service and a privacy policy, and no public API, developer portal, OpenAPI specification, SDK, or machine-readable contract of any kind.
+
+- Website: https://juno.co/
+- About: https://juno.co/about-us
+- Juno Mass Timber System: https://juno.co/juno-mass-timber-system
+- Contact: https://juno.co/contact
+
+Harvest provenance: surfaced from the secondary-market backlog via https://forgeglobal.com/juno_stock/ (a Forge Global trading-venue listing, not a company web presence).

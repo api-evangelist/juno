@@ -1,0 +1,64 @@
+generated: '2026-08-23'
+method: probed
+source: https://juno.co/.well-known/ (live HTTP probes, 2026-08-23)
+note: >-
+  Every canonical /.well-known/ path was probed on both juno.co and www.juno.co and every one
+  returned 404. juno.co is a Webflow-hosted marketing site; requests under /.well-known/ are
+  answered by Webflow's generic "Invalid .well-known request" 404 body rather than by a document.
+  No WellKnown or SecurityTxt pointer is emitted from this file — it records an absence, not a
+  presence. Two legacy subdomains were also checked and neither serves HTTP: api.juno.co (DNS ->
+  ghs.googlehosted.com, TLS handshake completes but the origin never returns a response, curl
+  exit 28) and developers.juno.co (DNS -> domains.readymag.com, TLS error, curl exit 35).
+hosts:
+- host: juno.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.juno.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
