@@ -66,9 +66,86 @@
 
 Juno (juno.co), operated by Juno Technology, Inc., is a San Francisco-based owner's representation, development-consulting and construction-management firm for prefabricated, modular and mass-timber multifamily development, working with developers from site feasibility and entitlement through delivery across North America. Juno owns the rights to the Juno Mass Timber System, a field-tested kit-of-parts building system of roughly 33 components configurable into 25+ unit types, proven on the 24-unit Juno East Austin project at 400 Comal St, Austin TX. The current company is the 2024 relaunch ("Juno 2.0") of the venture-funded Juno / Juno Residential founded in 2019 by Jonathan Scherr, BJ Siegel and Chester Chipperfield, which raised roughly $32M from Comcast Ventures, Khosla Ventures and RET Ventures before running out of money; the relaunched firm is led by co-founders Emily Mills Marineau and Jen Canchola. Juno sells professional services and a physical building system, not software: as of this enrichment pass it publishes a marketing site, a mass-timber system page, a contact form, a newsletter signup, terms of service and a privacy policy, and no public API, developer portal, OpenAPI specification, SDK, or machine-readable contract of any kind.
 
-- Website: https://juno.co/
-- About: https://juno.co/about-us
-- Juno Mass Timber System: https://juno.co/juno-mass-timber-system
-- Contact: https://juno.co/contact
+**Areas:** Company · Construction · Construction Management · Real Estate · Multifamily · Prefabrication · Modular Construction · Mass Timber · PropTech · Owner's Representation · Sustainability · Professional Services
 
-Harvest provenance: surfaced from the secondary-market backlog via https://forgeglobal.com/juno_stock/ (a Forge Global trading-venue listing, not a company web presence).
+## Juno on APIs.io
+
+Everything profiled for Juno is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/juno/](https://apis.io/providers/juno/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Juno Domain Security](https://apis.io/security/juno/juno-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Juno Plans Pricing](https://apis.io/plans/juno/juno-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://juno.co/)
+- [Support](https://juno.co/contact)
+- [Terms of service](https://juno.co/service-terms)
+- [Privacy policy](https://juno.co/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/juno/](https://apis.io/providers/juno/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Juno: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/juno/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
